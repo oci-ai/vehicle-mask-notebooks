@@ -26,6 +26,8 @@ $ cd DEMO
 $ jupyter notebooks
 ```
 
+Open `Vehicle Background Alpha Mask.ipynb` - Run all cells
+
 Upload the initial car image into the `images/original/` folder
 
 Download pre - trained models from:
