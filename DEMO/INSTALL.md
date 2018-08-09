@@ -25,3 +25,17 @@ $ cd DEMO
 
 $ jupyter notebooks
 ```
+
+Upload the initial car image into the `images/original/` folder
+
+Download pre - trained models from:
+https://drive.google.com/open?id=0B6l9O8aWij8fUGtVNldUTXA4eHc
+
+Move the models to DEMO/salient/model
+
+
+
+
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch DEMO/salient/model/model.ckpt-200.data-00000-of-00001' \
+--prune-empty --tag-name-filter cat -- --all
